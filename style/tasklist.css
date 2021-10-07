@@ -1,0 +1,129 @@
+/* ==========================================================================
+   TaskList
+   ========================================================================== */
+   .tasklist-course{
+	width:20%;
+	padding-left: 30px;
+}
+
+@media (max-width: 480px) {
+	.tasklist-course{
+		width:100%;
+		border-bottom: 2.5px solid #DDD;
+		padding: 5px 0px 5px 10px;
+	}
+}
+
+.tasklist-contents{
+	width:10%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-contents{
+		width:20%;
+		float:left;
+		border-bottom: 2.5px solid #DDD;
+		padding: 5px 0px 5px 10px;
+	}
+}
+
+.tasklist-title{
+	width:55%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-title{
+		width:80%;
+		float:left;
+		border-bottom: 2.5px solid #DDD;
+		padding: 5px 0px 5px 20px;
+	}
+}
+
+.tasklist-deadline{
+	width:15%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-deadline{
+		width:100%;
+		border-bottom: 2.5px solid #DDD;
+		padding: 5px 0px 5px 10px;
+	}
+}
+
+.tasklist-mobile-deadline {
+	display:none;
+}
+
+@media (max-width: 480px) {
+	.tasklist-mobile-deadline{
+		width:20%;
+		float: left;
+		display:block;
+	}
+}
+
+.tasklist-mobile-width-deadline{
+	width:100%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-mobile-width-deadline{
+		width:80%;
+	}
+}
+
+@media ( max-width : 480px) {
+	#hiddenTitle {
+		display: none;
+	}
+}
+
+.online-display-hide {
+	display:none;
+}
+
+@media ( max-width : 480px) {
+	.online-display-hide {
+		display:flex;
+	}
+}
+
+@media ( max-width : 480px) {
+	.online-mobile-hide {
+		display:none;
+	}
+}
+
+.tasklist-ex-deadline{
+	width:15%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-ex-deadline{
+		display:none;
+	}
+}
+
+.tasklist-mobile-ex-deadline {
+	display:none;
+}
+
+@media (max-width: 480px) {
+	.tasklist-mobile-ex-deadline{
+		width:20%;
+		float: left;
+		display:block;
+	}
+}
+
+.tasklist-mobile-width-ex-deadline{
+	width:100%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-mobile-width-ex-deadline{
+		width:80%;
+	}
+}
