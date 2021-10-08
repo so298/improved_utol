@@ -1,8 +1,13 @@
 # ITC-LMSのトップページに「課題・テスト一覧」を表示させるやつ
 
 ## 概要
-ITC-LMSの時間割ページ[https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable]に課題・テスト一覧ページから取ってきたデータを挿入して表示させるためのGoogle Chrome拡張機能です。
-<img src='imgs/lms-mosaic.png' width=50%>
+ITC-LMSの時間割ページ
+https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable
+に課題・テスト一覧ページから取ってきたデータを挿入して表示させるためのGoogle Chrome拡張機能です。
+
+<div style='text-align: center'>
+    <img src='imgs/lms-mosaic.png' width=50%>
+</div>
 
 
 ## 導入方法
