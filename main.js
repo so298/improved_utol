@@ -7,7 +7,7 @@ $(function(){
         dataType:'html'
     }).then(
         function(data){
-            $("#impInformation").after($(data).find(".block.clearfix"));
+            $("#timetable .header:first").before($(data).find(".block.clearfix"));
         },
         function(){
             alert("loading failed");

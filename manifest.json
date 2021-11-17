@@ -1,7 +1,7 @@
 {
     "name": "Improved ITC-LMS",
     "description": "Extension for ITC-LMS on Google Chrome",
-    "version": "1.0",
+    "version": "1.0.1",
     "manifest_version": 2,
     "content_scripts": [{
         "matches": ["https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable*"],
