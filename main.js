@@ -10,7 +10,7 @@ $(function(){
             $("#timetable .header:first").before($(data).find(".block.clearfix"));
         },
         function(){
-            alert("loading failed");
+            alert("課題リストの読み込みに失敗しました");
         }
     );
 });
