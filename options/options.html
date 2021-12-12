@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="ja">
+    <head>
+        <meta charset="utf-8">
+        <title>Improved ITC-LMS option page</title>
+    </head>
+    <style>
+        textarea {
+            width:600px;
+            height:200px;
+        }
+        form.highlight-inputs {
+            display: table;
+        }
+        div.highlight-inputs {
+            display: table-row;
+        }
+        label, input, select {
+            display: table-cell;
+        }
+    </style>
+    <body>
+        <h1>Improved ITC-LMS 設定ページ</h1>
+
+        <h2>表示しない授業名の設定</h2>
+        <textarea id="hide-course-list" placeholder="時間割ページに表示される課題・テスト一覧に表示しない授業名を改行区切りで入力してください&#13;&#10;(時間割ページに表示されている授業名を正確に記入してください)"></textarea>
+
+        <h2>期限が近い課題をハイライトして表示する</h2>
+        <form class="highlight-inputs">
+            <div class="highlight-inputs">
+                <label>期限が近い課題の表示色を変更する</label>
+                <input type="checkbox" id="highlight-check">
+            </div>
+            
+            <div class="highlight-inputs">
+                <label>色を指定</label>
+                <input type="color" id="highlight-color" value="#FFFF00">
+            </div>
+            
+            <div class="highlight-inputs">
+                <label>ハイライトまでの時間を設定</label>
+                <select id="highlight-time">
+                    <option value="24">24時間</option>
+                    <option value="48" selected>48時間</option>
+                    <option value="72">72時間</option>
+                    <option value="96">96時間</option>
+                </select>
+            </div>
+            
+            <input type="button" id="save_options" value="save">
+        </form>
+    </body>
+    <script src="options.js"></script>
+</html>
