@@ -1,18 +1,15 @@
 {
-    "name": "Improved ITC-LMS",
-    "description": "Extension for ITC-LMS on Google Chrome",
-    "version": "2.0.0",
-    "manifest_version": 3,
-    "content_scripts": [{
-        "matches": ["https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable*"],
-        "js": [
-            "jquery-3.6.0.min.js",
-            "main.js"
-        ],
-        "css": [
-            "style/tasklist.css"
-        ]
-    }],
-    "options_page": "options/options.html",
-    "permissions": ["storage"]
+  "name": "Improved ITC-LMS",
+  "description": "Extension for ITC-LMS on Google Chrome",
+  "version": "2.0.0",
+  "manifest_version": 3,
+  "content_scripts": [
+    {
+      "matches": ["https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable*"],
+      "js": ["external/jquery-3.6.0.min.js", "src/main.js"],
+      "css": ["style/tasklist.css"]
+    }
+  ],
+  "options_page": "src/options/options.html",
+  "permissions": ["storage"]
 }
