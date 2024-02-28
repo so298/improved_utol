@@ -9,8 +9,9 @@
         "https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable*",
         "https://utol.ecc.u-tokyo.ac.jp/lms/timetable*"
       ],
-      "js": ["external/jquery-3.6.0.min.js", "src/main.js"],
-      "css": ["style/tasklist.css"]
+      "js": ["src/main.js"],
+      "css": ["style/tasklist.css"],
+      "run_at": "document_idle"
     }
   ],
   "options_page": "src/options/options.html",
