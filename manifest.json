@@ -10,7 +10,7 @@
         "https://utol.ecc.u-tokyo.ac.jp/lms/timetable*"
       ],
       "js": ["src/main.js"],
-      "css": ["style/tasklist.css"],
+      "css": ["style/tasklist.css", "style/loader.css"],
       "run_at": "document_idle"
     }
   ],

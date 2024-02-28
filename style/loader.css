@@ -1,0 +1,14 @@
+.ilms-tasklist-loader {
+    border: 5px solid #DDD; /* Light grey */
+    border-top: 5px solid #96C1EA; /* Light blue */
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    animation: loader-spin 2s linear infinite;
+    margin: 20px auto;
+}
+
+@keyframes loader-spin {
+    0% { transform: rotate(0deg); }
+    100% { transform: rotate(360deg); }
+}
