@@ -5,7 +5,10 @@
   "manifest_version": 3,
   "content_scripts": [
     {
-      "matches": ["https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable*"],
+      "matches": [
+        "https://itc-lms.ecc.u-tokyo.ac.jp/lms/timetable*",
+        "https://utol.ecc.u-tokyo.ac.jp/lms/timetable*"
+      ],
       "js": ["external/jquery-3.6.0.min.js", "src/main.js"],
       "css": ["style/tasklist.css"]
     }

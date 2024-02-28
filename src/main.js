@@ -47,7 +47,7 @@ $(function () {
     dataType: "html",
   }).then(
     function (data) {
-      $("#timetable .header:first").before($(data).find(".block.clearfix"));
+      $("#selectTimetable").before($(data).find(".block.clearfix"));
       chrome.storage.sync.get(
         [
           "hide-course-list",

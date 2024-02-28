@@ -1,6 +1,37 @@
+/**
+ * Copied from https://utol.ecc.u-tokyo.ac.jp/course/css/tasklist.css
+ */
+
 /* ==========================================================================
-TaskList
-========================================================================== */
+   TaskList
+   ========================================================================== */
+.nosubmission-popup-title-txt {
+	font-size: 146.5%;
+	font-weight: bold;
+	margin: 25px 5px;
+}
+
+@media ( max-width : 480px) {
+	.nosubmission-popup-title-txt {
+		font-size: 120%;
+	}
+}
+
+.nosubmission-popup-contents-txt {
+	font-size: 140%;
+	margin: 30px;
+}
+
+@media ( max-width : 480px) {
+	.nosubmission-popup-contents-txt {
+		font-size: 100%;
+	}
+}
+
+.tasklist-search-area {
+	margin: 30px;
+}
+
 .tasklist-course{
 	width:20%;
 	padding-left: 30px;
@@ -14,38 +45,57 @@ TaskList
 	}
 }
 
+.tasklist-selectbox{
+	background-color: #DDD;
+	float: left;
+}
+
+.tasklist-checkbox{
+	clear:both;
+}
+
 .tasklist-contents{
-	width:10%;
+	width:20%;
 }
 
 @media (max-width: 480px) {
 	.tasklist-contents{
-		width:20%;
-		float:left;
+		width:100%;
 		border-bottom: 2.5px solid #DDD;
 		padding: 5px 0px 5px 10px;
 	}
 }
 
 .tasklist-title{
-	width:55%;
+	width:25%;
 }
 
 @media (max-width: 480px) {
 	.tasklist-title{
-		width:80%;
-		float:left;
+		width:100%;
 		border-bottom: 2.5px solid #DDD;
-		padding: 5px 0px 5px 20px;
+		padding: 5px 0px 5px 10px;
 	}
 }
 
 .tasklist-deadline{
-	width:15%;
+	width:20%;
 }
 
 @media (max-width: 480px) {
 	.tasklist-deadline{
+		width:100%;
+		border-bottom: 2.5px solid #DDD;
+		padding: 5px 0px 5px 10px;
+	}
+}
+
+.tasklist-status{
+	width:15%;
+}
+
+@media (max-width: 480px) {
+	.tasklist-status{
 		width:100%;
 		border-bottom: 2.5px solid #DDD;
 		padding: 5px 0px 5px 10px;
@@ -59,8 +109,7 @@ TaskList
 @media (max-width: 480px) {
 	.tasklist-mobile-deadline{
 		width:20%;
-		float: left;
-		display:block;
+		display:inline;
 	}
 }
 
@@ -126,4 +175,18 @@ TaskList
 	.tasklist-mobile-width-ex-deadline{
 		width:80%;
 	}
+}
+
+.noSubmissionData.caution-link-txt{
+	color: red;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: unset;
+}
+
+.noSubmissionData.noSubmission-link-txt{
+	color: black;
+    text-decoration: underline;
+    cursor: pointer;
+    font-weight: unset;
 }
