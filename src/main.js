@@ -1,3 +1,5 @@
+// This script run in https://utol.ecc.u-tokyo.ac.jp/lms/timetable at `document_idle` timing
+
 const timetableHeader = document.querySelector("#selectTimetable");
 
 // Insert loader DOM
@@ -19,12 +21,15 @@ fetch("/lms/task")
     const doc = parser.parseFromString(html, "text/html");
     const block = doc.querySelector(".block.clearfix");
 
-    // Remove the loader DOM and insert the task list block
-    loader.remove();
+    // Insert the task list block
     if (block !== null) {
       timetableHeader?.parentNode.insertBefore(block, timetableHeader);
     }
   })
   .catch((error) => {
     alert(error.message);
+  })
+  .finally(() => {
+    // Remove the loader
+    loader.remove();
   });
