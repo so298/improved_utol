@@ -1,2 +1,9 @@
+# Bundle file
+*.zip
+
+# Development
 debug/
 versions/
+
+# Misc
+.DS_Store
