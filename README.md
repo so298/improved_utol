@@ -14,7 +14,6 @@ https://utol.ecc.u-tokyo.ac.jp/lms/timetable
 
 ## 導入方法
 
-1. このリポジトリを GitHub からクローンするか、zip ファイルとしてダウンロード(画面上方の`Code`と書かれた緑色のボタンからできます)
-2. Google Chrome を起動し、拡張機能の管理ページ(`chrome://extensions`からアクセスできます)で、画面右上のトグルボタンをクリックして Chrome のデベロッパーモードをオンにします
-3. デベロッパーモードを起動すると表示されるバーの一番左の「パッケージ化されていない拡張機能を読み込む」というボタンを押し、先程このリポジトリをダウンロードしたフォルダを選択します
-4. 以上で準備は完了です
+Chrome web storeから追加可能です
+
+[![](https://img.shields.io/badge/Download-Chrome_web_store-blue)](https://chromewebstore.google.com/detail/improved-itc-lms/necglojjpcollldpcdldolodiandbpep)
